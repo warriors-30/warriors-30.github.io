@@ -7,11 +7,11 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 title: GengYu's Blog
-description: This is GengYu's Blog!
+description: This is GengYu's Blog
 github_username: warriors-30
 
 # Email and twitter are optional:
-email:warriors30@sjtu.edu.cn
+email: warriors30@sjtu.edu.cn
 twitter_username:
 
 # Set this to true to get LaTeX math equation support
