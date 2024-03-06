@@ -45,7 +45,8 @@ And a numbered list:
 {% include info.html text="You can include info boxes" %}
 
 ## Images
-<img src='/images/curry.jpg' width=300 height=400>
+
+<img src='/images/curry_suit.jpg' width=400>
 
 ## Code
 
