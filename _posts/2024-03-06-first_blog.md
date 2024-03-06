@@ -1,9 +1,8 @@
-# This is the title
+# My First Blog
 
 Here's the table of contents:
 
-1. TOC
-{:toc}
+[TOC]
 
 ## Basic setup
 
@@ -44,8 +43,7 @@ And a numbered list:
 {% include info.html text="You can include info boxes" %}
 
 ## Images
-
-![](/images/logo.png "fast.ai's logo")
+<img src='/images/curry.jpg' width=300 height=400>
 
 ## Code
 
