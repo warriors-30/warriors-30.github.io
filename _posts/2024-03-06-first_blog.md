@@ -1,5 +1,7 @@
 # My First Blog
 
+This is my first blog!
+
 Here's the table of contents:
 
 [TOC]
