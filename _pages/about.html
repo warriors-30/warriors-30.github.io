@@ -26,25 +26,34 @@ redirect_from:
 
 <!-- Publications Section -->
 <section id="publications">
-  <h2>Publications</h2>
+  <h2>Selected Publications</h2>
   {% if site.author.googlescholar %}
-    <div class="wordwrap">(* indicates equal contribution. You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.)</div>
+    <div class="wordwrap">(* indicates equal contribution. † indicates the corresponding author. For the full publication list please refer to my<a href="{{site.author.googlescholar}}">Google Scholar page</a>.)</div>
   {% endif %}
-<h3>Conference Paper</h3>
-<ul>
-  <li>
-        <b>G. Yu</b>, J. Zhu, J. Yao, B. Han.<br>
-        Self-Calibrated Tuning of Vision-Language Models for Out-of-Distribution Detection <br>               
-        In <a href="https://neurips.cc/Conferences/2024" target="_blank"><i>Advances in Neural Information Processing Systems (NeurIPS 2024)</i></a>, Vancouver, 2024.<br>
-        <a href="https://arxiv.org/abs/2411.03359" target="_blank">[PDF]</a>
-        <a href="https://github.com/tmlr-group/SCT" target="_blank">[Code]</a>
-  </li>
-  <li>
-        J. Zhu, <b>G. Yu</b>, J. Yao, T. Liu, G. Niu, M. Sugiyama, B. Han.<br>
-        Diversified Outlier Exposure for Out-of-Distribution Detection via Informative Extrapolation. <br>               
-        In <a href="https://neurips.cc/Conferences/2023" target="_blank"><i>Advances in Neural Information Processing Systems (NeurIPS 2023)</i></a>, New Orleans, 2023.<br>
-        <a href="https://arxiv.org/abs/2310.13923" target="_blank">[PDF]</a>
-        <a href="https://github.com/tmlr-group/DivOE" target="_blank">[Code]</a>
-  </li>
-</ul>
+  <ul>
+    <li>
+          Wide-In, Narrow-Out: Revokable Decoding for Efficient and Effective DLLMs <br>
+          Feng Hong*, <b>Geng Yu*</b>, Yushi Ye, Haicheng Huang, Huangjie Zheng, Ya Zhang, Yanfeng Wang, Jiangchao Yao.<br>             
+          In arXiv 2025.<br>
+          <a href="https://arxiv.org/abs/2507.18578" target="_blank">[PDF]</a>
+          <a href="https://github.com/Feng-Hong/WINO-DLLM" target="_blank">[Code]</a> <br>
+          This paper proposes a training-free algorithm that enables revokable decoding in diffusion large language models (DLLMs) to improve the speed-quality tradeoff.
+    </li>
+    <li>
+          Self-Calibrated Tuning of Vision-Language Models for Out-of-Distribution Detection <br>
+          <b>Geng Yu</b>, Jianing Zhu, Jiangchao Yao, Bo Han.<br>             
+          In <a href="https://neurips.cc/Conferences/2024" target="_blank"><i>Advances in Neural Information Processing Systems (NeurIPS 2024)</i></a>, Vancouver, 2024.<br>
+          <a href="https://arxiv.org/abs/2411.03359" target="_blank">[PDF]</a>
+          <a href="https://github.com/tmlr-group/SCT" target="_blank">[Code]</a> <br>
+          This paper proposes a prompt-tuning framework that mitigates the problem of inaccurate surrogate OOD features to achieve better OOD detection.
+    </li>
+    <li>
+          Diversified Outlier Exposure for Out-of-Distribution Detection via Informative Extrapolation. <br> 
+          Jianing Zhu, <b>Geng Yu</b>, Jiangchao Yao, Tongliang Liu, Gang Niu, Masashi Sugiyama, Bo Han.<br>    
+          In <a href="https://neurips.cc/Conferences/2023" target="_blank"><i>Advances in Neural Information Processing Systems (NeurIPS 2023)</i></a>, New Orleans, 2023.<br>
+          <a href="https://arxiv.org/abs/2310.13923" target="_blank">[PDF]</a>
+          <a href="https://github.com/tmlr-group/DivOE" target="_blank">[Code]</a> <br>
+          This paper proposes an outlier exposure framework that diversifies the given auxiliary outliers to achieve better out-of-distribution detection.
+    </li>
+  </ul>
 </section>
