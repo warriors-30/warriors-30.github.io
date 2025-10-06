@@ -1,0 +1,50 @@
+---
+permalink: /
+layout: archive
+title: ""
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
+<!-- About Section -->
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I am a third-year master's student at <a href="https://cmic.sjtu.edu.cn/EN/Default.aspx" target="_blank">Cooperative Medianet Innovation Center (CMIC)</a>, 
+    <a href="https://www.sjtu.edu.cn" target="_blank">Shanghai Jiao Tong University</a>, advised by Dr. <a href="https://sunarker.github.io/" target="_blank">Jiangchao Yao</a>. 
+    I was a research intern at <a href="https://www.riken.jp/en/research/labs/aip/" target="_blank">RIKEN AIP</a>, fortunately working 
+    with Dr. <a href="https://niug1984.github.io/" target="_blank">Gang Niu</a> and Prof. <a href="https://www.ms.k.u-tokyo.ac.jp/sugi/" target="_blank">Masashi Sugiyama</a>. 
+    Before that, I received my B.Eng. from <a href="https://www.sjtu.edu.cn" target="_blank">Shanghai Jiao Tong University</a> in 2023.
+  </p>
+
+  <p>
+    My research interests lie in <b>trustworthy</b> and <b>efficient AI</b>, with a recent focus on efficient pretraining and inference of foundation models (LLMs, VLMs).
+  </p>
+</section>
+
+<!-- Publications Section -->
+<section id="publications">
+  <h2>Publications</h2>
+  {% if site.author.googlescholar %}
+    <div class="wordwrap">(* indicates equal contribution. You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.)</div>
+  {% endif %}
+<h3>Conference Paper</h3>
+<ul>
+  <li>
+        <b>G. Yu</b>, J. Zhu, J. Yao, B. Han.<br>
+        Self-Calibrated Tuning of Vision-Language Models for Out-of-Distribution Detection <br>               
+        In <a href="https://neurips.cc/Conferences/2024" target="_blank"><i>Advances in Neural Information Processing Systems (NeurIPS 2024)</i></a>, Vancouver, 2024.<br>
+        <a href="https://arxiv.org/abs/2411.03359" target="_blank">[PDF]</a>
+        <a href="https://github.com/tmlr-group/SCT" target="_blank">[Code]</a>
+  </li>
+  <li>
+        J. Zhu, <b>G. Yu</b>, J. Yao, T. Liu, G. Niu, M. Sugiyama, B. Han.<br>
+        Diversified Outlier Exposure for Out-of-Distribution Detection via Informative Extrapolation. <br>               
+        In <a href="https://neurips.cc/Conferences/2023" target="_blank"><i>Advances in Neural Information Processing Systems (NeurIPS 2023)</i></a>, New Orleans, 2023.<br>
+        <a href="https://arxiv.org/abs/2310.13923" target="_blank">[PDF]</a>
+        <a href="https://github.com/tmlr-group/DivOE" target="_blank">[Code]</a>
+  </li>
+</ul>
+</section>
